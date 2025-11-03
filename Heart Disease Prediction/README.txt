@@ -64,6 +64,13 @@ It assists in **early risk detection**, supporting healthcare professionals in b
 | Random Forest       | 82%      | 0.84            | 0.83         | 0.82           |
 
 
+💾 Output Example
+
+prediction = model.predict([[63, 1, 3, 145, 233, 1, 0, 150, 0, 2.3, 0, 0, 1]])
+print(prediction)   # [0] → No Heart Disease
+
+
+
 🔍 Insights
 
 Logistic Regression performed best overall (86% accuracy)
@@ -73,4 +80,7 @@ Random Forest had higher recall for positive (disease) cases (93%)
 Dataset is slightly balanced (~54% disease cases)
 
 Models are reliable for basic clinical prediction tasks
+
+
+
 
