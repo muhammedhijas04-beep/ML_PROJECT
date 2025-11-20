@@ -1,7 +1,7 @@
  Predictive Maintenance with XGBoost & Logistic Regression
 
-📘 README: Predictive Maintenance with XGBoost & Logistic Regression
 🔧 Project Overview
+
 This project uses machine learning to predict equipment failures based on sensor data. It compares two models — XGBoost and Logistic Regression — to identify the most reliable approach for real-time diagnostics and predictive maintenance.
 
 📂 Dataset
@@ -53,7 +53,7 @@ Confusion Matrix            [[170,251],[7,321]]   [[65,35],[36,1064]]
 
 sample = [72.5587878, 76.021108, 103.536157, 39.804065, 61.983265, 0, 1, 1, 0]
 
-
+
 🔍 Feature Order Assumed:
 - vibration: 72.5587878
 - temperature: 76.021108
@@ -71,5 +71,6 @@ Failure Probability: 0.2648
 
 
 This means the model predicted no failure, but with a 26.5% chance of failure, which is a borderline case worth monitoring.
+
 
 
